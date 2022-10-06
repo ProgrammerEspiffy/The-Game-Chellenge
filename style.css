@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&family=Squada+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: #F2890D;
+}
+main{
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#titu{
+    font-family: 'Squada One', cursive;
+    background: #1180E6;
+    display: flex;
+    justify-content: center;
+}
+.Opcoes{
+    display: flex;
+    justify-content: space-around;
+}
+.Esquerda{
+    display: flex;
+    align-items: center;
+}
+.Direita{
+    display: flex;
+    align-items: center;
+}
+#comecar{
+    font-family: 'Press Start 2P', cur;
+    background-color: 
+    #F2890D;
+    border-radius: 20px;
+    width: 200px;
+    height: 42px;
+}
+#jogar{
+    font-family: 'Press Start 2P', cur;
+    background-color: 
+    #1180E6;
+    border-radius: 20px;
+    width: 200px;
+    height: 42px;
+}
+input{
+    width: 350px;
+    height: 42px;
+}
+select{
+    width: 350px;
+    height: 42px;  
+}

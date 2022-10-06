@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1º GameEdus</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <!-- titulo -->
+        <div id="titu">
+            <h1>O Jogo</h1>
+        </div>
+
+        <div class="Opcoes">
+            <div class="esquerda">
+                <div id="Imagem">
+                    <img src="src/image 1.png" alt="Perdido">
+                </div>
+                <!-- registrar -->
+
+                <label for="Nickname">Nickname</label>
+                <input type="text" id="Nick">
+                <br>
+                <label for="dificuldade">Dificuldade</label>
+                <select id="Selecionar">
+                    <option value="facim" selected>Cagão(1 á 10)</option>
+                    <option value="facil">Utopia(1 á 50)</option>
+                    <option value="normal">Mundo Normal :[(1 á 100)</option>
+                    <option value="Dificil">Distopia(1 á 500)</option>
+                    <option value="Inferno">Pesadelo de Todo O Ser Humano (1 á 1000)</option>
+                </select>
+
+            <button id="comecar">Começar</button>
+            </div>
+
+            <div class="Direita">
+                <div id="fulano">
+                    <!-- O Jogo -->
+
+                    <p>
+                        Olá Fulano, vamos jogar!
+                        <br>
+                        De acordo com a opção de
+                        <br>
+                        intervalo que
+                        <br>
+                        você escolheu, descubra o
+                        <br>
+                        número.
+                    </p>
+
+                    <div>
+                        <input type="number" id="Num">
+
+                        <button id="jogar">Jogar</button>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="Script.js"></script>
+
+</body>
+
+</html>
