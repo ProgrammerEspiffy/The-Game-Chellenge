@@ -1,0 +1,93 @@
+/* Celular */
+@media(max-width: 450px){
+    .Opcoes{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .nick{
+        font-family: 'Press Start 2P', cur;
+        width: 100px;
+    }
+    .dificult{
+        font-family: 'Press Start 2P', cur;
+        width: 100px;
+    }
+    input{
+        width: 200px;
+    }
+    button{
+        width: 200px;
+        align-items: center;
+        justify-content: center;
+    }
+    select{
+        width: 200px;
+    }
+    .esquerda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Direita{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .jogatina{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Tablets */
+@media(max-width: 850px){
+    .Opcoes{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .nick{
+        font-family: 'Press Start 2P', cur;
+        width: 400px;
+    }
+    .dificult{
+        font-family: 'Press Start 2P', cur;
+        width: 400px;
+    }
+    input{
+        width: 400px;
+    }
+    button{
+        width: 400px;
+        align-items: center;
+        justify-content: center;
+    }
+    select{
+        width: 400px;
+    }
+    .esquerda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Direita{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .jogatina{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

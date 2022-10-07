@@ -58,3 +58,6 @@ select{
     width: 350px;
     height: 42px;  
 }
+label{
+    font-family: 'Press Start 2P', cur;
+}
